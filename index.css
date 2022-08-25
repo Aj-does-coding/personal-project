@@ -1,0 +1,291 @@
+body{
+    margin: 0; 
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+header{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+nav{
+    text-align: center;
+    margin: 20px;    
+}
+.link{
+    text-decoration: none;
+    color: black;
+    margin-right: 35px;
+    font-size: 19px;
+    opacity: 0.7;
+}
+.link:hover{
+    text-decoration: underline black solid 2px;
+}
+#introduction{
+    background-color: pink;    
+    display: flex;
+    padding: 0 50px;
+}
+.intro-left{
+    flex: 8;
+    margin-right: 100px;
+}
+.intro-right{
+    flex: 4;    
+}
+#first-img{    
+   width: 600px;
+}
+.hello{
+    font-size: 60px;
+}
+.help{
+    font-size: 18px;
+    margin-bottom: 64px;
+}
+.click{
+    border: none;
+    color: white;
+    padding: 18px 40px;
+    font-size: 18px;
+    background-color: rgb(98, 95, 95)
+}
+.promoters{
+    display: inline-block;
+    margin-right: 150px;
+}
+.promo-box{
+    text-align: center;
+}
+.f{
+    font-family: 'Crimson Text', serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+.l{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    font-weight: 800;
+}
+.d{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+.k{
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+#exp{
+    background-color: pink;
+    padding: 40px 30px;
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+}
+.serv-pic{
+    width: 600px;
+}
+#serv-box{
+    display: flex;
+    padding: 0 40px;
+}
+.read{
+    border: none;
+    color: white;
+    padding: 18px 40px;
+    font-size: 18px;
+    background-color: rgb(98, 95, 95)
+}
+.serv-left{
+    flex: 6;
+}
+.serv-right{
+    flex: 6;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.services{
+    font-size: 70px;
+}
+.campaign{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+#ready{
+    background-color: pink;
+    text-align: center;
+    padding: 60px 100px;
+}
+.ready-div{
+    display: flex;
+    flex-direction: column;
+}
+.art{
+    display: flex;
+    justify-content: space-between;
+}
+.article{
+    width: 400px;
+    text-align: left;
+}
+.head{
+    font-size: 26px;
+}
+.content{
+    font-size: 20px;
+}
+.are-you{
+    font-size: 55px;
+}
+#blog-sec{
+    display: flex;
+    padding: 0 40px;
+}
+.blog-left{
+    flex: 6;
+    margin-left: 20px;
+    margin-right: 70px;
+}
+.blog-right{
+    flex: 6;
+    margin-right: 40px;
+}
+.blog-img{
+    width: 600px;
+}
+.my-blog{
+    font-size: 70px;
+    margin-top: 100px;
+}
+.blog-cont{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.blog-click{
+    border: none;
+    color: white;
+    padding: 18px 40px;
+    font-size: 18px;
+    background-color: rgb(98, 95, 95)
+}
+#pics{
+    background-color: pink;
+    display: flex;
+    padding: 80px 100px;
+}
+.no-1, .no-2, .no-3, .no-4{
+    width: 230px;
+    height: 250px
+}
+.left-1, .left-2, .right-1, .right-2{
+    flex: 3;
+}
+.bottom{
+    text-align: center;
+    padding: 100px 0;
+}
+.terms{
+    color: black;
+}
+.soc-media{
+    margin-bottom: 30px;
+}
+.soc-media > i{
+    margin: 0 20px;
+    font-size: 20px;
+}
+.soc-media > i:hover{
+    opacity: 0.7;
+}
+#smm{
+    padding: 40px 70px;
+}
+.smm-header{
+    font-size: 60px;
+}
+.smm-cont{
+    font-size: 20px;
+    justify-content: left;
+}
+#smm-part2{
+    padding: 40px 10px;
+}
+.list-head{
+    font-size: 40px;
+}
+.service-add{
+    display: flex;
+    padding: 0 50px;
+}
+.more{
+    flex: 6;
+}
+.duration{
+    flex: 6;
+}
+.pricing{
+    flex: 6;
+}
+.duration-pricing{
+    display: flex;
+    padding: 70px 50px;
+}
+.dc{
+    margin-right: 160px;
+}
+#graphic{
+    padding: 40px 40px;
+    background-color: pink;
+}
+.gd{
+    font-size: 70px;
+}
+.graphic-content{
+    font-size: 20px;
+}
+.serv-dur{
+    display: flex;
+}
+.service2{
+    flex: 6;
+}
+.duration2{
+    flex: 6;
+}
+.price-view{
+    display: flex;
+}
+.price{
+    flex: 6;
+}
+.view{
+    flex: 6;
+    padding-top: 80px;
+}
+#blurry{
+    background-color: pink;
+    display: flex;
+    padding: 0 80px;
+}
+.picbox1{
+    flex: 4;
+}
+.picbox2{
+    flex: 4;
+}
+.picbox3{
+    flex: 4;
+}
+.blur-pics{
+    width: 350px;
+}
+#first-free{
+    background-color: white;
+    display: flex;
+    padding-top: 200px;
+}
